@@ -4,10 +4,8 @@ function mostrar()
 var edad;
   edad=document.getElementById("edad").value;
   edad=parseInt(edad);
-  //if(edad >= 18){
-    //alert(" No es adolescente ");
-  //}
-  if(!(edad > 13&& edad <=17)){// negamos y obtenemos lo mismo que la liena anterior
+
+  if(!(edad > 13&& edad <=17)){// negamos para que todos los casos que no esten entre 13 y 17 aparezca el msj
 
       alert(" No es adolescente ");
   }
