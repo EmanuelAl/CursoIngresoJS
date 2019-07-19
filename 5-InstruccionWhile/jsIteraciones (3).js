@@ -11,7 +11,7 @@ var clave = prompt("ingrese el número clave.");
   }
 
 }*/
-//a continuacion utilizamos el do{}while() para realizar el codigo anterio y se le agrega la bandera.
+//a continuacion utilizamos el do{}while() para realizar el codigo anterior y se le agrega la bandera.
 do{
     cont++;
     clave=prompt("ingrese el número clave");

@@ -6,17 +6,22 @@ function mostrar()
   cont++;suma despues
   ++cont;suma primero
   */
-  var cont =0;
+  //var cont =0;
   /*while(cont < 10){
    cont+=1;
     console.log(cont);
     //alert(cont);
   }*/
-  do{
+  /*do{
     cont+=1;
     console.log(cont);
 
-  }while(cont < 10);
+  }while(cont < 10);*/
+  for(var cont=1;cont<=10;cont++){
+
+    console.log(cont);
+
+  }
 //pendiente:
 /* aplicar hacer lo mismo aplicando for */
 
