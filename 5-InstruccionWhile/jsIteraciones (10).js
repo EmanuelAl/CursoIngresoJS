@@ -38,8 +38,16 @@ function mostrar()
 		}
 		respuesta=confirm("quiere seguir ?");//devuelve true si damos "aceptar"
 	}
-	promedioPos=sumPos/contP;
-	promedioneg=sumNeg/contN;
+	if(contP==0){
+		promedioPos="no se  ingreso numeros positivos";
+	}else{
+		promedioPos=sumPos/contP;
+	}
+	if(contN==0){
+		promedioneg="no se ingresaron numeros negativos";
+	}else{
+		promedioneg=sumNeg/contN;
+	}
 	difPosNeg=contP-contN;
 	document.write("<p> suma de negativos "+ sumNeg +"<br> suma de positivos "+sumPos+
 	"<br> cantidad de positivos "+contP+"<br> cantidad de negativos "+contN+"<br> cantidad de ceros "+
